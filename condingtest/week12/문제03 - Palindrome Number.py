@@ -1,8 +1,8 @@
 """
 출처 : Leet Code
-번호 : 15
-난이도 : Medium
-제목 : 3Sum
+번호 : 9
+난이도 : Easy
+제목 : Palindrome Number
 """
 
 class Solution(object):

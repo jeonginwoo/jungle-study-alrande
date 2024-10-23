@@ -1,8 +1,8 @@
 """
 출처 : Leet Code
-번호 : 7
-난이도 : Medium
-제목 : Reverse Integer
+번호 : 14
+난이도 : Easy
+제목 : Longest Common Prefix
 """
 
 class Solution(object):
