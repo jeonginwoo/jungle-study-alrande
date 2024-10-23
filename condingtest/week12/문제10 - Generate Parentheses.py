@@ -39,6 +39,6 @@ case[1] = [3]
 case[2] = [1]
 for i in range(1, CaseCount+1):
     print(f"=== Case {i} ===")
-    print("x:", case[i][0])
+    print("n:", case[i][0])
     print("result:", Solution().generateParenthesis(case[i][0]))
     print()

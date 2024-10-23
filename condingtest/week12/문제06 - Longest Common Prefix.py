@@ -30,6 +30,6 @@ case[2] = [["dog","racecar","car"]]
 case[3] = [["ab", "a"]]
 for i in range(1, CaseNum+1):
     print(f"=== Case {i} ===")
-    print("x:", case[i][0])
+    print("strs:", case[i][0])
     print("result:", Solution().longestCommonPrefix(case[i][0]))
     print()

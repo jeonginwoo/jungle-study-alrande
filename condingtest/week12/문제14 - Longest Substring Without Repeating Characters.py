@@ -35,6 +35,6 @@ case[2] = "bbbbb"
 case[3] = "pwwkew"
 for i in range(1, CaseCount+1):
     print(f"=== Case {i} ===")
-    print("x:", case[i])
+    print("s:", case[i])
     print("result:", Solution().lengthOfLongestSubstring(case[i]))
     print()

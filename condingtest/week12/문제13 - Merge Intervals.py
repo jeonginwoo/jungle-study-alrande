@@ -30,6 +30,6 @@ case[1] = [[1,3],[2,6],[8,10],[15,18]]
 case[2] = [[1,4],[4,5]]
 for i in range(1, CaseCount+1):
     print(f"=== Case {i} ===")
-    print("x:", case[i])
+    print("intervals:", case[i])
     print("result:", Solution().merge(case[i]))
     print()

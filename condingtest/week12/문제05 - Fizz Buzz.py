@@ -31,6 +31,6 @@ case[2] = [5]
 case[3] = [15]
 for i in range(1, 4):
     print(f"=== Case {i} ===")
-    print("x:", case[i][0])
+    print("n:", case[i][0])
     print("result:", Solution().fizzBuzz(case[i][0]))
     print()

@@ -36,6 +36,6 @@ case[3] = ["(]"]
 case[4] = ["([])"]
 for i in range(1, CaseNum+1):
     print(f"=== Case {i} ===")
-    print("x:", case[i][0])
+    print("s:", case[i][0])
     print("result:", Solution().isValid(case[i][0]))
     print()
