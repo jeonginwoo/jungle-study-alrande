@@ -1,7 +1,7 @@
 """
 출처 : Leet Code
 번호 : 121
-난이도 : Medium
+난이도 : Easy
 제목 : Best Time to Buy and Sell Stock
 """
 
