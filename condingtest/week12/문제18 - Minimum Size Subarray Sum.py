@@ -19,8 +19,7 @@ class Solution(object):
         while right < len(nums):
             curr_sum += nums[right]
             while curr_sum >= target:
-                if curr_sum == target:
-                    result = min(result, right-left+1)
+                result = min(result, right-left+1)
                 curr_sum -= nums[left]
                 left += 1
             right += 1
